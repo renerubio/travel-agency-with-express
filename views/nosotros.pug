@@ -1,6 +1,27 @@
 extends ./layout/index
 
 block contenido
-  p Nosotros
+  main.container.mt-5 
+    .row 
+      .col-md-5 
+        img(src="img/nosotros.jpg" alt="imagen sobre nosotros" class="img-fluid")
+      .col-md-7
+        h1=pagina
+        blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ante enim, facilisis nec sem eu, rhoncus rhoncus tortor. In hac habitasse platea dictumst. Phasellus felis eros, molestie sed cursus ac, convallis a turpis. Phasellus mi massa, maximus sed sapien vel, congue eleifend nunc. Curabitur efficitur enim vitae justo pulvinar, vitae posuere tellus commodo. Suspendisse ut nisl vestibulum, finibus purus eu, fringilla libero. Morbi malesuada vestibulum metus, eget dictum enim dapibus vitae. Mauris sodales tortor in luctus congue. In et nunc rutrum urna tempus bibendum vitae ut ligula. Donec aliquet viverra dapibus. Mauris at elit sed sem tempor porttitor. Suspendisse ac quam ipsum. Pellentesque vehicula erat risus, ac egestas quam dictum ac. Integer gravida tellus ut turpis consectetur posuere.  Pellentesque odio massa, cursus sed justo at, volutpat lacinia purus. 
+  .listado-iconos   
+    .container.mt-5.py-5.text-center  
+      .row 
+        .col-md-4 
+          img(src="img/icono_seguridad.svg" alt="icono seguridad" class="img-fluid mb-4")
+          h2.mb-4 Seguridad
+          p Curabitur quis mattis nulla. Vestibulum quam arcu, finibus non eros et, vehicula efficitur arcu. Nulla semper justo non porttitor venenatis. Maecenas non posuere enim. Ut pellentesque magna a est accumsan euismod. Duis sit amet dolor congue, pulvinar dolor non, tristique tellus. Donec rhoncus odio interdum est fringilla fermentum.
+        
+        .col-md-4 
+          img(src="img/icono_destinos.svg" alt="icono destinos" class="img-fluid mb-4")
+          h2.mb-4 Los Mejores Destinos
+          p Curabitur quis mattis nulla. Vestibulum quam arcu, finibus non eros et, vehicula efficitur arcu. Nulla semper justo non porttitor venenatis. Maecenas non posuere enim. Ut pellentesque magna a est accumsan euismod. Duis sit amet dolor congue, pulvinar dolor non, tristique tellus. Donec rhoncus odio interdum est fringilla fermentum.
 
-  img(src="img/cupon.jpg", alt="")
+        .col-md-4 
+          img(src="img/icono_precios.svg" alt="icono precios" class="img-fluid mb-4")
+          h2.mb-4 Los Mejores Precios
+          p Curabitur quis mattis nulla. Vestibulum quam arcu, finibus non eros et, vehicula efficitur arcu. Nulla semper justo non porttitor venenatis. Maecenas non posuere enim. Ut pellentesque magna a est accumsan euismod. Duis sit amet dolor congue, pulvinar dolor non, tristique tellus. Donec rhoncus odio interdum est fringilla fermentum.
