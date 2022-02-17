@@ -3,6 +3,12 @@ extends ./layout/index
 block contenido
   main.container.mt-5 
     h1.text-center.mt-5=pagina
+
+    if(testimoniales)
+      blockquote.text-center Lee sobre nuestro clientes y sus experiencias
+      include ./layout/bloque_testimoniales
+
+
     .row 
       .col-md-12
         h2.d-block.w-100.text-center Agrega un Testimonial 

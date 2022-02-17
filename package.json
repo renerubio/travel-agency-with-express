@@ -4,7 +4,8 @@
   "description": "Primer proyecto con node.js",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "René Rubio",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "sequelize": "^6.16.1"
   },
   "devDependencies": {
+    "dotenv": "^16.0.0",
     "nodemon": "^2.0.15"
   },
   "type": "module"
